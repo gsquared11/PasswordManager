@@ -2,13 +2,11 @@ package edu.cwru.passwordmanager;
 
 import edu.cwru.passwordmanager.model.Password;
 import edu.cwru.passwordmanager.model.PasswordModel;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.input.Clipboard;
 import javafx.scene.input.ClipboardContent;
-import javafx.scene.input.MouseEvent;
 
 import java.net.URL;
 import java.util.Optional;

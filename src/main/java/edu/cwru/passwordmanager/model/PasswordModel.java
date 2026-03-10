@@ -16,7 +16,6 @@ import java.util.Base64;
 public class PasswordModel {
     private ObservableList<Password> passwords = FXCollections.observableArrayList();
 
-    // !!! DO NOT CHANGE - VERY IMPORTANT FOR GRADING !!!
     static private File passwordFile = new File("passwords.txt");
 
     static private String separator = "\t";
